@@ -1,0 +1,39 @@
+body > .header .navbar {
+  
+ /* margin-left: 220px;*/
+}
+
+body > .header .logo {
+  
+ /* width: 220px;*/
+  
+}
+
+
+.left-side {
+ 
+  width: 220px;
+}
+.content {
+  padding: 20px 15px;
+  background: #fff;
+  overflow: auto;
+}
+
+.right-side {
+  background-color: #fff;
+  /*margin-left: 50px;*/
+}
+
+.stat {
+    padding-top: 20px;
+}
+
+.side-piece{
+    /*max-width: 220px;*/
+}
+.staffimage{
+    width: 100px;
+    margin-left:35px;
+    margin-right: auto;
+}

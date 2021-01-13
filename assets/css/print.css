@@ -1,0 +1,111 @@
+@media print{
+    .rowprint {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .rowprint:before,
+  .rowprint:after {
+    display: table;
+    content: " ";
+  }
+
+  .rowprint:after {
+    clear: both;
+  }
+
+  .rowprint:before,
+  .rowprint:after {
+    display: table;
+    content: " ";
+  }
+
+  .rowprint:after {
+    clear: both;
+  }
+	.col-print-1 {width:8%; float:left;   }
+	.col-print-2 {width:16%;  float:left;    }
+	.col-print-3 {width:25%; float:left;    }
+	.col-print-4 {width:33%; float:left;    }
+	.col-print-5 {width:42%; float:left;    }
+	.col-print-6 {width:50%; float:left;    }
+	.col-print-7 {width:58%; float:left;    }
+	.col-print-8 {width:66%; float:left;    }
+	.col-print-9 {width:75%; float:left;    }
+	.col-print-10{width:83%; float:left;    }
+	.col-print-11{width:92%; float:left;    }
+	.col-print-12{width:100%; float:left;    }
+	.col-print-offset-12 { margin-left: 100%;}
+  .col-print-offset-11 {
+    margin-left: 91.66666666666666%;
+  }
+  .col-print-offset-10 {
+    margin-left: 83.33333333333334%;
+  }
+  .col-print-offset-9 {
+    margin-left: 75%;
+  }
+  .col-print-offset-8 {
+    margin-left: 66.66666666666666%;
+  }
+  .col-print-offset-7 {
+    margin-left: 58.333333333333336%;
+  }
+  .col-print-offset-6 {
+    margin-left: 50%;
+  }
+  .col-print-offset-5 {
+    margin-left: 41.66666666666667%;
+  }
+  .col-print-offset-4 {
+    margin-left: 33.33333333333333%;
+  }
+  .col-print-offset-3 {
+    margin-left: 25%;
+  }
+  .col-print-offset-2 {
+    margin-left: 16.666666666666664%;
+  }
+  .col-print-offset-1 {
+    margin-left: 8.333333333333332%;
+  }
+  .col-print-offset-0 {
+    margin-left: 0;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  .table td,
+  .table th {
+    background-color: #fff !important;
+
+  }
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+  .label {
+    border: 1px solid #000;
+  }
+  .table {
+    border-collapse: collapse !important;
+  }
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #eeeeee !important;
+    padding: 3px;
+  }
+
+  hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #ddd;
+  }
+  .hr{
+    border-top: 0.4px solid #eeeeee;
+
+  }
+
+}
